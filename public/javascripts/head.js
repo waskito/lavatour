@@ -220,7 +220,7 @@ function animate(index,d) {
     var p = polyline[index].GetPointAtDistance(d);
 
     //map.panTo(p);
-    map.panTo(polyline[1].GetPointAtDistance(d))
+    map.panTo(polyline[0].GetPointAtDistance(d))
     //console.log(index)
     marker[index].setPosition(p);
     updatePoly(index,d);
