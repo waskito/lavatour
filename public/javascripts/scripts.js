@@ -157,5 +157,5 @@ $(window).load(function() {
 /*--------- ScrollSpy -----------*/
 
 $('body').scrollspy({
-    target: '.navbar-fixed-top'
+    target: '.navbar-default'
 })
