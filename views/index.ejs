@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><%= title %></title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link href="http://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/stylesheets/style.css" rel="stylesheet">
+
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type ="text/javascript" src="http://www.geocodezip.com/scripts/v3_epoly.js"></script>
+    <script src="/javascripts/head.js"></script>
+  </head>
+  <body id="top" onload="initialize()">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header page-scroll">
+          <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#home" class="navbar-brand page-scroll"><%= title %></a>
+        </div>
+        <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="hidden"><a href="#home"></a></li>
+            <li><a href="#home" class="page-scroll">Home</a></li>
+            <li><a href="#about" class="page-scroll">About</a></li>
+            <li><a href="#lorem" class="page-scroll">Lorem</a></li>
+            <li><a href="#services" class="page-scroll">Services</a></li>
+            <li><a href="#how" class="page-scroll">How do I get there?</a></li>
+            <li><a href="#contact" class="page-scroll">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header id="home">
+      <section id="hero" class="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-right navicon">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center inner">
+              <h1 class="animated fadeInDown">LAVA<span>TOUR</span></h1>
+              <p class="animated fadeInUp delay-05s">Keliling wisata Merapi naik Jeep!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <section id="about" class="intro text-center section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 wp1">
+            <h1 class="arrow">Jeep ?</h1>
+            <p>Kendaraan Jeep Classic terbuka : Jeep Willys tahun 1948 s.d 1972,  Jimny Jangkrik, LandRover dll.Sebanyak  30 Armada Jeep, dengan 1 armada memuat 4 orang. Melayani Tour Perseorangan, Keluarga, Rombongan dan Bookingan. Driver sekaligus menjadi pemandu wisata local yang akan menjelaskan tentang semua obyek yang dikunjungi. Selain itu dapat menjadi fotografer jika anda ingin berfoto bersama rombongan.Bagi Paket khusus disediakan coffee break dan sticker.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="lorem" class="swag text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <h1>Lorem ipsum<span>sed<em>adipiscing</em>eiusmod tempor</span></h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <a href="#portfolio" class="down-arrow-btn"><i class="fa fa-chevron-down"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="text-center">
+      <div class="container-fluid nopadding responsive-services">
+        <div class="wrapper">
+          <div class="iphone">
+            <div id="jeepSlider">
+              <ul class="slides">
+                <li>
+                  <img src="/images/iphone-bg.png" class="servs" alt="">
+                </li>
+                <li>
+                  <img src="/images/iphone-john.png" class="servs" alt="">
+                </li>
+                <li>
+                  <img src="/images/iphone-bg.png" class="servs" alt="">
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="fluid-white"></div>
+        </div>
+        <div class="container designs">
+          <div class="row">
+            <div class="col-md-5 col-md-offset-7">
+              <div id="servicesSlider">
+                <ul class="slides">
+                  <li>
+                    <h1 class="arrow">MELAYANI PERJALANAN WISATA PERSEORANGAN</h1>
+                    <p>Kami melayani perjalanan wisata perseorangan dengan dapat memilih jalur, jalur Ekstrim, Semi Ekstrim ataupun jalur Standar. Anda dapat menikmati perjalanan Wisata menggunakan jeep wisata bersama kekasih,sahabat maupun teman baik anda.</p>
+                  </li>
+                  <li>
+                    <h1 class="arrow">MELAYANI PERJALANAN WISATA BERSAMA KELUARGA</h1>
+                    <p>Apabila anda ingin merasakan sensasi tour menggunakan jeep bersama keluarga maupun saudara anda di lava tour, Kami melayani perjalanan wisata anda mengisi liburan anda bersama keluarga menyusuri bekas bekas erupsi Merapi tahun 2010. </p>
+                  </li>
+                  <li>
+                    <h1 class="arrow"> MELAYANI PERJALANAN WISATA BERSAMA ROMBONGAN</h1>
+                    <p>Apabila anda datang bersama rombongan dalam jumlah besar, kami melayani perjalanan wisata rombongan dengan kapasitas per armada sebanyak max 5 orang sebanyak 20 armada reguler, jadi anda dapat merasakan indahnya konvoi jeep bersama rombongan di sisa erup si merapi. </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="how" class="map_wrapper" style="height:700px;width:100%;position:relative">
+      <div id="map_canvas" style="height:100%;width:100%;">
+      </div>
+      <div class="map-shadow" style="position:absolute;height:100%;width:100%;background:rgba(0,0,0,0.3);top:0px">
+        <div class="container">
+        <div class="row" style="position:relative">
+          <div class="col-md-12"><button class="ignite-btn" onclick="setRoutes('true')">How to get there ?</button>
+
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <section id="contact" class="dark-bg text-center section-padding contact-wrap"><a href="#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="arrow">Hubungi Kami</h1>
+          </div>
+        </div>
+        <div class="row contact-details">
+          <div class="col-md-4">
+            <div class="light-box box-hover">
+              <h2><i class="fa fa-map-marker"></i><span>Alamat</span></h2>
+              <p>Jeep Lava Tour Merapi, Pakem, D.I. Yogyakarta</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="light-box box-hover">
+              <h2><i class="fa fa-mobile"></i><span>Telepon</span></h2>
+              <p>+62 89 211 1823</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="light-box box-hover">
+              <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
+              <p><a href="#">lavatour@jogja.sample</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="social-buttons">
+              <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#" class="social-btn"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="legals">
+            <li><a href="#">&copy; 2014 Merapi Lavatour</a></li>
+            <li><a href="#">Website by Jangkrik</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/javascripts/lib/jquery/jquery-1.11.1.min.js"></script>
+  <script src="/javascripts/lib/waypoints.min.js"></script>
+  <script src="/javascripts/lib/classie.js"></script>
+  <script src="/javascripts/lib/bootstrap/bootstrap-3.2.0.min.js"></script>
+  <script src="/javascripts/lib/cbpAnimatedHeader.js"></script>
+  <script src="/javascripts/scripts.js"></script>
+  <script src="/javascripts/lib/jquery.flexslider.js"></script>
+  <script src="/javascripts/lib/modernizr.js"></script>
+</html>
