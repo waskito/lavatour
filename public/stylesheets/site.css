@@ -8270,7 +8270,7 @@ Waypoints
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #fff;
-  background-color: #fec503;
+  background-color: #FC6E51;
 }
 
 @media (min-width: 768px) {
@@ -11321,4 +11321,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .navbar-nav > li > a {
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+#home,#about,#lorem,#services,#how,#contact{
+  position: relative;
 }

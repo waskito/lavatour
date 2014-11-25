@@ -40,12 +40,12 @@ function initialize() {
     });
 
     var myOptions = {
-      zoom: 10,
+      zoom: 12,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
     map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 
-    address = 'Yogyakarta'
+    address = 'Depok, Special Region of Yogyakarta'
     geocoder = new google.maps.Geocoder();
     geocoder.geocode( { 'address': address}, function(results, status) {
      map.fitBounds(results[0].geometry.viewport);
